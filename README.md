@@ -5,7 +5,7 @@
 
 ### Authors _**Collin Chapman, Tyler Sinks, Saoud Rana**_
 * _originally created March 15, 2021 while following along with Epicodus' "Learn How to Program: Asynchronoy and APIs" curriculum_
-* _last major revision March 15, 2021_
+* _last major revision March 19, 2021_
 
 ### Technologies Used
 * _npm, webpack, webpack-cli_
@@ -19,16 +19,16 @@ When the project is fully assembled and running in a browser, a user can enter a
 
 ### Setup/Installation Requirements
 1. Clone this repository to your machine following (these steps)[https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository].
-Here's the link to this repo: https://github.com/sinkstyt/weather-API.git
-2. Navigate to the root folder of the weather-API repository in your command line or terminal.
+Here's the link to this repo: https://github.com/sinkstyt/barebones-weather.git
+2. Navigate to the root folder of the barebones-weather repository in your command line or terminal.
 This might look something like:
 ```
-Users/{YOUR_USER_NAME}/Desktop $ mkdir weather-api
-Users/{YOUR_USER_NAME}/Desktop $ cd weather-api
-Users/{YOUR_USER_NAME}/Desktop/weather-api $
+Users/{YOUR_USER_NAME}/Desktop $ mkdir barebones-weather
+Users/{YOUR_USER_NAME}/Desktop $ cd barebones-weather
+Users/{YOUR_USER_NAME}/Desktop/barebones-weather $
 ```
 3. Tell git to bring down the entire repository using:<br>
-`Users/{YOUR_USER_NAME}/Desktop/weather-api $ git clone https://github.com/sinkstyt/weather-API.git`
+`Users/{YOUR_USER_NAME}/Desktop/barebones-weather $ git clone https://github.com/sinkstyt/barebones-weather.git`
 4. Get your own unique Open Weather API key by creating a login and requesting one for free (Go there now)[https://home.openweathermap.org/users/sign_up]
 5. Store your unique API key (it looks something like this: 86a52c0d12da09c0e39fedfb4v89797d) at the root level of this project in a file saved as .env
 6. The .env file should have just one line in it like so:<br>
